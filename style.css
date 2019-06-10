@@ -102,7 +102,7 @@ body {
 }
 
 .about-container {
-    height: 100vh;
+  height: 100vh;
   padding: 15rem 0rem 0rem;
   position: relative;
   color: rgba(124, 123, 123, 0.767);
@@ -110,14 +110,15 @@ body {
 }
 
 .heading {
-    display: block;
-    text-align: center;
-    font-style: normal;
-    font-weight: 1000;
-    text-transform: uppercase;
-    font-size: 5rem;
-    letter-spacing: 1rem;
-  }
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  color: black;
+}
 
 .about-text {
   margin-top: 10rem;
@@ -128,22 +129,26 @@ body {
   letter-spacing: 0.1rem;
   line-height: 3rem;
 }
-.image-banner{
-    text-align: left;
-    display: flex;
-    max-height: 270px;
+
+.image-banner {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  margin-bottom: auto;
+  max-height: 250px;
 }
 
 .about-images {
-    flex: 2;
-    /* width: 100%; */
-    width: auto;
+  flex: 2;
+  /* width: 100%; */
+  width: auto;
 }
 
 .shrink {
-    flex: 1.3;
+  flex: 1.3;
 }
-
 
 .testimonials {
   margin-top: 10px;
@@ -161,4 +166,3 @@ body {
 .txt {
   font-size: 40px;
 }
-
